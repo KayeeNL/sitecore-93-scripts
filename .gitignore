@@ -328,3 +328,6 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+assets/solr-8.1.1.zip
+Solr/solr-ssl.keystore.jks
+Solr/solr-ssl.keystore.p12
