@@ -20,7 +20,7 @@ $solrName = "solr-$solrVersion"
 $solrRoot = "$installFolder\$solrName"
 $nssmRoot = "$installFolder\nssm-$nssmVersion"
 $solrPackage = "http://archive.apache.org/dist/lucene/solr/$solrVersion/$solrName.zip"
-$nssmPackage = "http://nssm.cc/release/nssm-$nssmVersion.zip"
+$nssmPackage = "https://nssm.cc/release/nssm-$nssmVersion.zip"
 
 $downloadFolder = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("..\assets") 
 if (!(Test-Path $downloadFolder)){
